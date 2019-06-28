@@ -1,0 +1,12 @@
+TensorRT Version: 5.1.2.2
+Registering Input: True
+Registering Output: True
+[TensorRT] ERROR: UffParser: Unsupported number of graph 0
+Parsing Model: False
+[TensorRT] ERROR: Network must have at least one output
+None
+Saving engine file to: /workspace/optimization/artifacts/model1_v100_b1_fp32.engine
+Traceback (most recent call last):
+  File "convert_uff_to_tensorrt.py", line 56, in <module>
+    file.write(engine.serialize())
+AttributeError: 'NoneType' object has no attribute 'serialize'
