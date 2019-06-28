@@ -1,3 +1,6 @@
+<img src="NV_TensorRT_Visual_2C_RGB-625x625-1.png" alt="pipeline" height="300px"/> 
+
+
 For conversion to RT we have the following models:
 - model1 = old school tensorflow convolutional network with no concat and no batch-norm
 - model2 = pre-trained resnet50 keras model with tensorflow backend and added shortcuts
